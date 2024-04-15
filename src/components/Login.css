@@ -1,0 +1,31 @@
+.loginform {
+    border: 1px solid black;
+    width: 30%;
+    /* justify-content: center;*/
+    margin: 90px 370px;
+    padding-left: 250px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background-color: aqua;
+}
+.loginform h1{
+    margin-left: 10px;
+}
+.loginform form input{
+    border:3px solid green;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.loginform form button{
+    text-align: center;
+    padding: 10px 30px;
+    margin-left: 50px;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: green;
+    cursor: pointer;
+}
+.loginform form button:hover{
+    background-color: gray;
+    color: red;
+}

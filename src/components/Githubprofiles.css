@@ -1,0 +1,31 @@
+.one {
+    border: 1px solid black;
+    margin: 80px 450px;
+    padding: 10px 150px;
+    background-color: rgb(77, 77, 109);
+    
+}
+.one input{
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+    border: 3px solid green;
+}
+.one .gitdata{
+    margin: 35px;
+}
+.one .gitdata img{
+    border: 1px solid green;
+    border-radius: 50%;
+}
+.one .gitdata a{
+    text-decoration: none;
+    font-weight: 600;
+    color: azure;
+}
+.one .gitdata a:hover{
+    background-color: rgb(142, 181, 181);
+    color: rgb(13, 6, 20);
+    border-radius: 10px;
+    padding: 5px 10px;
+}

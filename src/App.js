@@ -1,17 +1,20 @@
-// import logo from './logo.svg';
 import './App.css';
-import Login from './components/Login';
 import Githubprofiles from './components/Githubprofiles';
+import Home from './components/Home';
+import Login from './components/Login';
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
 function App() {
   return (
     <div>
-        <Router>
-          <Login/>
-            <Routes>
-                <Route path='/github' element={<Githubprofiles/>}/>
-            </Routes>
-        </Router>
+     <Router>
+        <Routes>
+          <Route path='/nav' element={<Navbar/>}/>
+           <Route path='/home' element={<Home/>}/>
+           <Route path='/' element={<Login/>} />
+            <Route path='/github' element={<Githubprofiles/>}/>
+        </Routes> 
+     </Router>
     </div>
   );
 }
